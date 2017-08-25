@@ -1,0 +1,31 @@
+{
+  "name": "ameba",
+  "version": "0.1.0",
+  "description": "Ameba is a flexible entity with TypeScript",
+  "main": "index.js",
+  "types": "./dist/Ameba.d.ts",
+  "scripts": {
+    "build": "tsc && tsc --declaration",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micin-jp/ameba.git"
+  },
+  "author": "MICIN, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micin-jp/ameba/issues"
+  },
+  "homepage": "https://github.com/micin-jp/ameba#readme",
+  "dependencies": {
+    "rxjs": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.53",
+    "@types/node": "^8.0.19",
+    "codelyzer": "^3.1.2",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.2"
+  }
+}
